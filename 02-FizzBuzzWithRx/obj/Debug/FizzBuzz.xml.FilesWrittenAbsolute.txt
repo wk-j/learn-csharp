@@ -1,0 +1,7 @@
+/Users/wk/Source/wk/csharp-experimental/02-FizzBuzzWithRx/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/wk/Source/wk/csharp-experimental/02-FizzBuzzWithRx/bin/Debug/System.Reactive.Core.dll
+/Users/wk/Source/wk/csharp-experimental/02-FizzBuzzWithRx/bin/Debug/System.Reactive.Interfaces.dll
+/Users/wk/Source/wk/csharp-experimental/02-FizzBuzzWithRx/bin/Debug/System.Reactive.PlatformServices.dll
+/Users/wk/Source/wk/csharp-experimental/02-FizzBuzzWithRx/bin/Debug/FizzBuzz.exe
+/Users/wk/Source/wk/csharp-experimental/02-FizzBuzzWithRx/obj/Debug/FizzBuzz.exe
+/Users/wk/Source/wk/csharp-experimental/02-FizzBuzzWithRx/bin/Debug/System.Reactive.Linq.dll
