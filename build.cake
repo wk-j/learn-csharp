@@ -22,7 +22,7 @@ Task("Build-Readme").Does(() => {
 
         var dirName = file.Directory.Name;
         var parent = file.Directory.Parent.Name;
-        var link = $"- [{parent}/{dirName}]({parent}/{dirName})";
+        var link = $":beer: [{parent}/{dirName}]({parent}/{dirName})";
         links.Add(link);
     });
 
