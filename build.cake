@@ -22,12 +22,12 @@ Task("Build-Readme").Does(() => {
 
         var dirName = file.Directory.Name;
         var parent = file.Directory.Parent.Name;
-        var link = $":beer: [{parent}/{dirName}]({parent}/{dirName})";
+        var link = $"- [{parent}/{dirName}]({parent}/{dirName})";
         links.Add(link);
     });
 
     var mainTemplate = System.IO.File.ReadAllText("Template/main.template");
-    var mainText = mainTemplate.Replace("{{links}}", String.Join("\n\n", links));
+    var mainText = mainTemplate.Replace("{{links}}", String.Join("\n", links));
     System.IO.File.WriteAllText("README.md", mainText);
 });
 
