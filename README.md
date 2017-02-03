@@ -38,4 +38,5 @@
 - [Original/UserDefinedConversion](Original/UserDefinedConversion)
 - [Single/Array](Single/Array)
 - [Single/InvalidDictionaryInitialize](Single/InvalidDictionaryInitialize)
+- [Single/RemovableTokens](Single/RemovableTokens)
 - [Single/Repeat](Single/Repeat)

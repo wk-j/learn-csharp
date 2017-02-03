@@ -10,6 +10,6 @@ var doc = new Dictionary<string, object> {
     ["name"] = "John"
 }
 
-Console.WriteLine(doc["name"])
+Console.WriteLine(doc["name"]);
 
 ```
