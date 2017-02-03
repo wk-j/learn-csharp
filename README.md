@@ -5,6 +5,8 @@
 - [Tests/InvocationExpression](Tests/InvocationExpression)
 - [Tests/RemovableTokens](Tests/RemovableTokens)
 - [Tests/Repeat](Tests/Repeat)
+- [Tests/WhatInterfacesDoAllArraysImplement](Tests/WhatInterfacesDoAllArraysImplement)
+- [Tests/WhyArrayImplementsIList](Tests/WhyArrayImplementsIList)
 - [Z/01-StringBuilder](Z/01-StringBuilder)
 - [Z/02-FizzBuzzWithRx](Z/02-FizzBuzzWithRx)
 - [obj/Debug](obj/Debug)

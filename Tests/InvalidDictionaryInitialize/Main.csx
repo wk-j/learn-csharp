@@ -2,9 +2,10 @@
 
 var doc = new Dictionary<string, object> {
     ["data"] = new Dictionary<string, object> {
-        ["@id"] = 1
+        ["id"] = 1
     }
     ["name"] = "John"
 }
 
-Console.WriteLine(doc["name"]);
+var name = doc["name"];
+
