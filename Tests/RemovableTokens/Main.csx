@@ -1,7 +1,3 @@
-## Main.csx
-
-```csharp
-
 
 class C {
     Int32 Int32;
@@ -17,5 +13,3 @@ class D {
     }
 }
 
-
-```
