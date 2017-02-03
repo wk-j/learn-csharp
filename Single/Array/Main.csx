@@ -1,0 +1,2 @@
+typeof(Array).IsArray == false
+

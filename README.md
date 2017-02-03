@@ -36,3 +36,5 @@
 - [Original/TryCatchPerformance](Original/TryCatchPerformance)
 - [Original/TypeOfArrayIsArray](Original/TypeOfArrayIsArray)
 - [Original/UserDefinedConversion](Original/UserDefinedConversion)
+- [Single/Array](Single/Array)
+- [Single/Repeat](Single/Repeat)
