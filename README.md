@@ -37,4 +37,5 @@
 - [Original/TypeOfArrayIsArray](Original/TypeOfArrayIsArray)
 - [Original/UserDefinedConversion](Original/UserDefinedConversion)
 - [Single/Array](Single/Array)
+- [Single/InvalidDictionaryInitialize](Single/InvalidDictionaryInitialize)
 - [Single/Repeat](Single/Repeat)
