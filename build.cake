@@ -27,7 +27,7 @@ Task("Build-Readme").Does(() => {
     });
 
     var mainTemplate = System.IO.File.ReadAllText("Template/main.template");
-    var mainText = mainTemplate.Replace("{{links}}", String.Join("\n", links));
+    var mainText = mainTemplate.Replace("{{links}}", String.Join("\n\n", links));
     System.IO.File.WriteAllText("README.md", mainText);
 });
 
