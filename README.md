@@ -5,6 +5,7 @@
 - [T/InvocationExpression](T/InvocationExpression)
 - [T/RemovableTokens](T/RemovableTokens)
 - [T/Repeat](T/Repeat)
+- [T/StringInterning](T/StringInterning)
 - [T/WhatInterfacesDoAllArraysImplement](T/WhatInterfacesDoAllArraysImplement)
 - [T/WhyArrayImplementsIList](T/WhyArrayImplementsIList)
 - [Z/01-StringBuilder](Z/01-StringBuilder)
