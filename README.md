@@ -3,6 +3,7 @@
 - [T/Array](T/Array)
 - [T/InvalidDictionaryInitialize](T/InvalidDictionaryInitialize)
 - [T/InvocationExpression](T/InvocationExpression)
+- [T/NewVsOverride](T/NewVsOverride)
 - [T/RemovableTokens](T/RemovableTokens)
 - [T/Repeat](T/Repeat)
 - [T/StringComparison](T/StringComparison)
