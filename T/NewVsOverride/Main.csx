@@ -10,5 +10,5 @@ class A : Base {
    } 
 }
 
-Base b = new A();
-b.Method1(); 
+A a = new A();
+a.Method1(); 
