@@ -4,6 +4,7 @@
 - [T/InvalidDictionaryInitialize](T/InvalidDictionaryInitialize)
 - [T/InvocationExpression](T/InvocationExpression)
 - [T/Lang.01-Delegate](T/Lang.01-Delegate)
+- [T/Lang.02-LazyParameterPassing](T/Lang.02-LazyParameterPassing)
 - [T/Loop](T/Loop)
 - [T/NewVsOverride](T/NewVsOverride)
 - [T/RemovableTokens](T/RemovableTokens)
