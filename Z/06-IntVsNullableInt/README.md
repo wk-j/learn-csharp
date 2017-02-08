@@ -1,4 +1,4 @@
-## :wine_glass: Bool.csx
+## Bool.csx
 
 ```csharp
 

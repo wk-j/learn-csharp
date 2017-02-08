@@ -1,4 +1,4 @@
-## :wine_glass: Test.csx
+## Test.csx
 
 ```csharp
 

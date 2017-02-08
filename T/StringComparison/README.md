@@ -1,4 +1,4 @@
-## :wine_glass: Main.csx
+## Main.csx
 
 ```csharp
 http://esmithy.net/2007/10/15/why-stringcomparisonordinal-is-usually-the-right-choice

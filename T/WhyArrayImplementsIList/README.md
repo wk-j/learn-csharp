@@ -1,4 +1,4 @@
-## :wine_glass: Main.csx
+## Main.csx
 
 ```csharp
 var array = new int[] {};

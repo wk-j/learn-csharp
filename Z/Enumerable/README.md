@@ -1,4 +1,4 @@
-## :wine_glass: Test.cs
+## Test.cs
 
 ```csharp
 using System.Linq;

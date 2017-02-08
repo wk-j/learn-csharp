@@ -1,4 +1,4 @@
-## :wine_glass: Main.csx
+## Main.csx
 
 ```csharp
 // https://ayende.com/blog/176769/challenge-what-does-this-code-do

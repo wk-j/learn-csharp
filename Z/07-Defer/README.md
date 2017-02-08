@@ -1,4 +1,4 @@
-## :wine_glass: Defer.csx
+## Defer.csx
 
 ```csharp
 

@@ -1,4 +1,4 @@
-## :wine_glass: Address.csx
+## Address.csx
 
 ```csharp
 using System.Runtime.InteropServices;

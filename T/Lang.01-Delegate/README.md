@@ -1,4 +1,4 @@
-## :wine_glass: Delegate.csx
+## Delegate.csx
 
 ```csharp
 public delegate int CounterDelegate(int init);

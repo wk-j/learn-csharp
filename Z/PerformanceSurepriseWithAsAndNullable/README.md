@@ -1,4 +1,4 @@
-## :wine_glass: test.cs
+## test.cs
 
 ```csharp
 using System;

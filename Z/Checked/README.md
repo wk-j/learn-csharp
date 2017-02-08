@@ -1,4 +1,4 @@
-## :wine_glass: Checked.cs
+## Checked.cs
 
 ```csharp
 

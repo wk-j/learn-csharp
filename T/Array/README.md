@@ -1,4 +1,4 @@
-## :wine_glass: ArrayInterface.csx
+## ArrayInterface.csx
 
 ```csharp
 var array = new [] { 1 };

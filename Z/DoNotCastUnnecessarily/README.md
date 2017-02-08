@@ -1,4 +1,4 @@
-## :wine_glass: Evil.csx
+## Evil.csx
 
 ```csharp
 

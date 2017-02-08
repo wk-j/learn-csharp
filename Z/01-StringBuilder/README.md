@@ -1,4 +1,4 @@
-## :wine_glass: Builder.csx
+## Builder.csx
 
 ```csharp
 using System.Text;
