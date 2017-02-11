@@ -1,5 +1,6 @@
 ## Try `C#`
 
+- [A/NewConstraint](A/NewConstraint)
 - [T/Array](T/Array)
 - [T/InvalidDictionaryInitialize](T/InvalidDictionaryInitialize)
 - [T/InvocationExpression](T/InvocationExpression)
