@@ -2,6 +2,7 @@
 
 - [A/NewConstraint](A/NewConstraint)
 - [T/Array](T/Array)
+- [T/InOut](T/InOut)
 - [T/InvalidDictionaryInitialize](T/InvalidDictionaryInitialize)
 - [T/InvocationExpression](T/InvocationExpression)
 - [T/Lang.01-Delegate](T/Lang.01-Delegate)
