@@ -1,5 +1,6 @@
 ## Try `C#`
 
+- [A/HowDoesGetTypeWork](A/HowDoesGetTypeWork)
 - [A/NewConstraint](A/NewConstraint)
 - [T/Array](T/Array)
 - [T/InOut](T/InOut)
