@@ -1,7 +1,10 @@
 ## Main.csx
 
 ```csharp
+//https://blogs.msdn.microsoft.com/seteplia/2017/02/01/dissecting-the-new-constraint-in-c-a-perfect-example-of-a-leaky-abstraction
+
 using System.Linq.Expressions;
+using System.Linq;
 
 public static class FastActivator
 {
@@ -19,6 +22,7 @@ public static class FastActivator
         public static readonly Func<T> NewFunction = NewExpression.Compile();
     }
 }
+
 
 class Node { }
 
