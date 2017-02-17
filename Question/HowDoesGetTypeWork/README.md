@@ -4,7 +4,7 @@
 
 class BaseClass {}
 class DerivedClass : BaseClass {
-    public new Type GetType () {
+    public Type GetType () {
         return typeof (string); 
     }
 }
