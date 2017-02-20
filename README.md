@@ -1,5 +1,6 @@
 ## Try `C#`
 
+- [Function/LocalAsync](Function/LocalAsync)
 - [Issue/DelegateEqualityComparisonsAreVeryStrangeIndeed](Issue/DelegateEqualityComparisonsAreVeryStrangeIndeed)
 - [Question/HowDoesGetTypeWork](Question/HowDoesGetTypeWork)
 - [Question/NewConstraint](Question/NewConstraint)
