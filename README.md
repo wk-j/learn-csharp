@@ -62,3 +62,6 @@
 - [Zoo/TryCatchPerformance](Zoo/TryCatchPerformance)
 - [Zoo/TypeOfArrayIsArray](Zoo/TypeOfArrayIsArray)
 - [Zoo/UserDefinedConversion](Zoo/UserDefinedConversion)
+- [src/TryDotNetCore](src/TryDotNetCore)
+- [TryDotNetCore/obj](TryDotNetCore/obj)
+- [Debug/netcoreapp1.0](Debug/netcoreapp1.0)

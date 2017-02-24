@@ -3,5 +3,7 @@
 packages
 tools
 *.dll
+bin
+obj
 
 
