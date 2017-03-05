@@ -1,4 +1,17 @@
 
+var mainTemplate = @"
+## Try `C#`
+
+{{links}}
+";
+
+var readmeTemplate = @"
+## {{fileName}}
+
+```csharp
+{{source}}
+```";
+
 Task("Build-Readme").Does(() => {
     var links = new List<string>();
     
@@ -10,7 +23,7 @@ Task("Build-Readme").Does(() => {
 
     files.ForEach(file => {
         Console.WriteLine(file.FullName);
-        var text = System.IO.File.ReadAllText("Template/readme.template");
+        var text = readmeTemplate; 
         var source = System.IO.File.ReadAllText(file.FullName);
         var name = file.Name;
         var newText = text
@@ -26,7 +39,6 @@ Task("Build-Readme").Does(() => {
         links.Add(link);
     });
 
-    var mainTemplate = System.IO.File.ReadAllText("Template/main.template");
     var mainText = mainTemplate.Replace("{{links}}", String.Join("\n", links));
     System.IO.File.WriteAllText("README.md", mainText);
 });

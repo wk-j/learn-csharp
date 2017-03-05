@@ -1,0 +1,43 @@
+---
+uti: com.xamarin.workbook
+platforms:
+- Console
+packages:
+- id: Newtonsoft.Json
+  version: 9.0.1
+---
+
+## Why is array co-variance considered so horrible?
+
+```csharp
+string s1 = "Apple";
+object o1 = s1;
+string s2 = (string) o1;
+```
+
+```csharp
+class C {
+    public static void Run(object[] input) {
+        input[0] = "Orange";
+        input[1] = 1;
+    }
+    public static void Run(string[] input) {
+        input[0] = "Orange";
+        //input[1] = 1;
+    }
+}
+
+string[] s1 = new []{ "Apple", "Banana" };
+object[] o1 = s1;
+
+C.Run(s1);
+//C.Run(o1);
+```
+
+```csharp
+int[] a1 = new [] { 1,2,3 };
+//object[] o1 = a1;
+
+List<string> l1 = new List<string> { "Apple", "Banana" };
+//List<object> o1 = l1;
+```

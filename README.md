@@ -1,5 +1,7 @@
+
 ## Try `C#`
 
+- [Concepts/Covariance](Concepts/Covariance)
 - [Function/AsyncLocal](Function/AsyncLocal)
 - [Function/AsyncLocalVsCallContext](Function/AsyncLocalVsCallContext)
 - [Function/ThreadLocalDemo](Function/ThreadLocalDemo)
@@ -7,8 +9,10 @@
 - [Question/HowDoesGetTypeWork](Question/HowDoesGetTypeWork)
 - [Question/NewConstraint](Question/NewConstraint)
 - [Test/Array](Test/Array)
+- [Test/AvoidCustomDelegate](Test/AvoidCustomDelegate)
 - [Test/DriveInfo](Test/DriveInfo)
 - [Test/HandlingAndREthrowingException](Test/HandlingAndREthrowingException)
+- [Test/Hello](Test/Hello)
 - [Test/InOut](Test/InOut)
 - [Test/InvalidDictionaryInitialize](Test/InvalidDictionaryInitialize)
 - [Test/InvocationExpression](Test/InvocationExpression)
@@ -24,6 +28,7 @@
 - [Test/Repeat](Test/Repeat)
 - [Test/StringComparison](Test/StringComparison)
 - [Test/StringInterning](Test/StringInterning)
+- [Test/TheVoidIsInvariant](Test/TheVoidIsInvariant)
 - [Test/WhatInterfacesDoAllArraysImplement](Test/WhatInterfacesDoAllArraysImplement)
 - [Test/WhyArrayImplementsIList](Test/WhyArrayImplementsIList)
 - [Zoo/01-StringBuilder](Zoo/01-StringBuilder)
