@@ -21,10 +21,6 @@ class C {
         input[0] = "Orange";
         input[1] = 1;
     }
-    public static void Run(string[] input) {
-        input[0] = "Orange";
-        //input[1] = 1;
-    }
 }
 
 string[] s1 = new []{ "Apple", "Banana" };
@@ -35,9 +31,28 @@ C.Run(s1);
 ```
 
 ```csharp
-int[] a1 = new [] { 1,2,3 };
-//object[] o1 = a1;
+class C {
+    public static void Run(object[] input) { }
+    public static void Run(List<object> input) { }
+
+}
+
+int[] i1 = new [] { 1,2,3 };
+//object[] o1 = i1;
+//C.Run(i1);
 
 List<string> l1 = new List<string> { "Apple", "Banana" };
 //List<object> o1 = l1;
+//C.Run(li);
+```
+
+```csharp
+class C {
+    public static void Run(IEnumerable<object> input) {
+        var ss = input.ToArray();
+        ss[0] = 1;
+    }
+}
+string[] s1 = new [] { "Apple", "Banana" };
+C.Run(s1);
 ```
