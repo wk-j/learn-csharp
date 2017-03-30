@@ -2,6 +2,8 @@
 var mainTemplate = @"
 ## Try `C#`
 
+[![Build Status](https://travis-ci.org/wk-j/try-csharp.svg?branch=master)](https://travis-ci.org/wk-j/try-csharp)
+
 {{links}}
 ";
 
@@ -41,6 +43,18 @@ Task("Build-Readme").Does(() => {
 
     var mainText = mainTemplate.Replace("{{links}}", String.Join("\n", links));
     System.IO.File.WriteAllText("README.md", mainText);
+});
+
+Task("Restore").Does(() => {
+    DotNetCoreRestore("CSharp7.sln");
+});
+
+Task("Test").Does(() => {
+    DotNetCoreTest("src/TryDotNetCore/TryDotNetCore.csproj");
+});
+
+Task("Build").Does(() => {
+    DotNetCoreBuild("CSharp7.sln");
 });
 
 var target = Argument("target", "default");

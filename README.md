@@ -1,6 +1,8 @@
 
 ## Try `C#`
 
+[![Build Status](https://travis-ci.org/wk-j/try-csharp.svg?branch=master)](https://travis-ci.org/wk-j/try-csharp)
+
 - [Concepts/Covariance](Concepts/Covariance)
 - [Function/AsyncLocal](Function/AsyncLocal)
 - [Function/AsyncLocalVsCallContext](Function/AsyncLocalVsCallContext)
