@@ -10,17 +10,49 @@ public class CSharp7Tests {
             status = true;
             message = "Processing success";
         }
+        public void Deconstruct(out bool status, out string message, out DateTime time) {
+            status = true; 
+            message = "Processing success";
+            time = DateTime.Now;
+        }
     }
 
-    public void Test() {
-        var (status, messgae) = new C();
+    [Fact]
+    public void Des() {
+        var c = new C();
+        var (status1, message1) = c;
+        var (status2, message2, time2) = c;
+        Assert.True(status1 == status2);
+    }
+
+    int[] array = new int[1] { 100 };
+    
+    public ref int GetRefElement(int index) {
+        return ref array[index];
+    }
+
+    [Fact]
+    public void RefReturn() {
+        ref var firstValue = ref GetRefElement(0);
+        firstValue = 200;
+
+        Assert.True( firstValue == array[0]);
+    }
+
+    [Fact]
+    public void RefLocal() {
+        var x1 = 100;
+        ref var x2 = ref x1;
+        x1 = 200;
+
+        Assert.True( x1 == x2);
     }
 
     [Fact]
     public void NumericLertals() {
         var b1 = 0b0001;
         var b2 = 0b0011;
-        Assert.True( b1 + b2 == 3);
+        Assert.True( b1 + b2 == 4);
     }
     [Fact]
     public void Sep() {
@@ -30,13 +62,13 @@ public class CSharp7Tests {
 
         var b1 = 0b0000_1111;
         var b2 = 0b0000__1111;
-
+        Assert.True(b1 == b2);
     }
 
     [Fact]
     public void ThrowsExpression() {
         var data = "";
-        var result = data == null ? "Valid" : throw new ArgumentNullException("Invalid");
+        var result = data != null ? "Valid" : throw new ArgumentNullException("Invalid");
     }
 
     [Fact]
