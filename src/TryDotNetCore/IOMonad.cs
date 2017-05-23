@@ -12,6 +12,7 @@ static class IOMonad {
         var c = bar(a, b);
         return () => c;
     }
+
     public static IO<T> Combine<T>(IO<T> a, Action b) {
         return new Func<IO<T>, IO<T>>(x => { b(); return x; })(a);
     }
@@ -26,6 +27,7 @@ static class IOMonad {
 }
 
 public class IOTests {
+
     [Fact]
     public void Go() {
         var A = new IOMonad.IO<int>( () => { 
