@@ -7,12 +7,11 @@ public class PatternMaching
     [Fact]
     public void ShouldFizz()
     {
+
         (bool N3, bool N5) DivideBy(int i) => (i % 3 == 0, i % 5 == 0);
 
-        string FB(int i)
-        {
-            switch (DivideBy(i))
-            {
+        string FB(int i) {
+            switch (DivideBy(i)) {
                 case var s when s.N3 && s.N5:
                     return "FizzBuzz";
                 case var s when s.N3:
