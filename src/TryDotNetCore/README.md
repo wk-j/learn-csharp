@@ -1,19 +1,8 @@
-## TryDotNetCore.csproj
+
+## Hello.csx
 
 ```csharp
-<Project Sdk="Microsoft.NET.Sdk">
+// #load "https://gist.githubusercontent.com/filipw/9a79bb00e4905dfb1f48757a3ff12314/raw/adbfe5fade49c1b35e871c49491e17e6675dd43c/foo.csx"
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp1.0</TargetFramework>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0-preview-20170123-02" />
-    <PackageReference Include="xunit" Version="2.2.0-beta5-build3474" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0-beta5-build1225" />
-  </ItemGroup>
-
-</Project>
-
+Console.WriteLine("Hello, world!");
 ```

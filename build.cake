@@ -1,6 +1,5 @@
-
 var mainTemplate = @"
-## Try `C#`
+## Try C\#
 
 [![Build Status](https://travis-ci.org/wk-j/try-csharp.svg?branch=master)](https://travis-ci.org/wk-j/try-csharp)
 
@@ -19,6 +18,7 @@ Task("Build-Readme").Does(() => {
     
     var files = new System.IO.DirectoryInfo("./")
         .GetFiles("*.csx", System.IO.SearchOption.AllDirectories)
+        .Where(x => !x.FullName.Contains("src"))
         .GroupBy(x => x.Directory.FullName)
         .Select(x => x.FirstOrDefault())
         .ToList();
@@ -45,16 +45,8 @@ Task("Build-Readme").Does(() => {
     System.IO.File.WriteAllText("README.md", mainText);
 });
 
-Task("Restore").Does(() => {
-    DotNetCoreRestore("CSharp7.sln");
-});
-
 Task("Test").Does(() => {
     DotNetCoreTest("src/TryDotNetCore/TryDotNetCore.csproj");
-});
-
-Task("Build").Does(() => {
-    DotNetCoreBuild("CSharp7.sln");
 });
 
 var target = Argument("target", "default");
